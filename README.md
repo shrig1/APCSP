@@ -1,3 +1,0 @@
-# APCSP
-
-stuff
