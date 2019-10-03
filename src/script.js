@@ -25,7 +25,8 @@ function ip_render() {
 }
 function tcp_render() {
     document.getElementById("Images").innerHTML = "<img src='TCP/Blindspoof.jpg' alt='The Image' width='600' height='400'/>";
-
+    
+    document.getElementById("Images2").innerHTML = "<img src='TCP/TCPintercept.jpg' alt='The Image' width='600' height='400'/>"
 
 }
 // function dns_render() {
@@ -35,7 +36,7 @@ function tcp_render() {
 // }
 function ping_render() {
 
-
+        document.getElementById("Images").innerHTML = "<img src='Ping/Overkill.jpg' alt='The Image' width='600' height='400'/>"
 
 
 }
