@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-    <body>
-        <p> 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
 
-            <li>
-                <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Vulnerabilities">Wikipedia</a>
-            </li>
-            <li>
-                <a href="https://blog.finjan.com/tcpip-vulnerabilities/">Some random Article</a>
-            </li>
-            <li>
-                <a href="https://www.scribd.com/doc/19536994/Presentation-on-TCP-IP-Vulnerabilities">Some person wasted time making a presentation</a>
-            </li>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-        </p>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Credits</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Vulnerabilities">Wikipedia</a>
+    <a href="https://blog.finjan.com/tcpip-vulnerabilities/">Some random Article</a>
+    <a href="https://www.scribd.com/doc/19536994/Presentation-on-TCP-IP-Vulnerabilities">Some person wasted time making a presentation</a>
+  </div>
+</div>
+
 
     </body>
 
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 
 
