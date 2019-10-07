@@ -20,7 +20,7 @@ function home_render() {
 
   document.getElementById("Images2").innerHTML = "<img src='home/th02L4E843.jpg' alt='The Image' width='500' height='300'/>";
 
-  document.getElementById("Images3").innerHTML = "<img src='home/Word Art.jpeg' alt='The Image' width='500' height='300'/>";
+  document.getElementById("Images3").innerHTML = "<img src='home/Word Art.jpg' alt='The Image' width='500' height='300'/>";
 
   document.getElementById("Images4").innerHTML = "<img src='home/hackbreakbuild.jpg' alt='The Image' width='500' height='300'/>";
 
