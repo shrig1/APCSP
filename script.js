@@ -16,7 +16,7 @@ function sleep(ms) {
   }
 
 function home_render() {
-  document.getElementById("Images").innerHTML = "<img src='home/thJ0EANV9Q.jpg' alt='The Image' width='500' height='300'/>";
+  document.getElementById("Images").innerHTML = "<img src='home/Untitled.png' alt='The Image' width='500' height='300'/>";
 
   document.getElementById("Images2").innerHTML = "<img src='home/th02L4E843.jpg' alt='The Image' width='500' height='300'/>";
 
@@ -66,7 +66,7 @@ function ping_render() {
 
         document.getElementById("Images").innerHTML = "<img src='Ping/Overkill.jpg' alt='The Image' width='600' height='400'/>"
 
-        document.getElementById("Images2").innerHTML = "<img src='Ping/ddos-illustrations-1.png' alt='The Image' width='600' height='400'/>"
+        document.getElementById("Images2").innerHTML = "<img src='Ping/ddos-illustrations-1.jpg' alt='The Image' width='600' height='400'/>"
 
         
         document.getElementById("Images3").innerHTML = "   ";
