@@ -16,7 +16,7 @@ function sleep(ms) {
   }
 
 function home_render() {
-  document.getElementById("Images").innerHTML = "<img src='home/Untitled.png' alt='The Image' width='500' height='300'/>";
+  document.getElementById("Images").innerHTML = "<img src='home/Untitled.png' alt='The Image35665' width='500' height='300'/>";
 
   document.getElementById("Images2").innerHTML = "<img src='home/th02L4E843.jpg' alt='The Image' width='500' height='300'/>";
 
